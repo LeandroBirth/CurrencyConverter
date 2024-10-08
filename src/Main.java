@@ -17,30 +17,37 @@ public class Main {
         scanner.nextLine();
 
         System.out.println(idioma.equals("PT-BR") ?
-                "\n"+
-                "Bem-Vindo ao conversor de moedas!\n" +
-                        "*********************************\n" +
-                        "Esse conversor aceita:\n"+
-                        "Reais (BRL)\n" +
-                        "Dólares Americanos (USD)\n" +
-                        "Dólares Canadenses (CAD)\n" +
-                        "Euro (EUR)\n" +
-                        "Libra Esterlina (GBP)\n"+
-                        "Pesos Mexicanos (MXN)\n" +
-                        "Pesos Argentinos (ARS)\n" +
-                        "*********************************"
-                : "\n" +
-                "Welcome to the currency converter!\n"+
-                        "*********************************\n" +
-                        "This converter accepts:\n" +
-                        "Brazilian Reais (BRL)\n" +
-                        "US Dollars (USD)\n" +
-                        "Canadian Dollars (CAD)\n"+
-                        "Euros (EUR)\n" +
-                        "British Pounds (GBP)\n" +
-                        "Mexican Pesos (MXN)\n" +
-                        "Argentinian Pesos (ARS)\n"+
-                        "*********************************");
+                """
+                
+                Bem-Vindo ao conversor de moedas!
+                *********************************
+                Esse conversor aceita:
+                Reais (BRL)
+                Dólares Americanos (USD)
+                Dólares Canadenses (CAD)
+                Euro (EUR)
+                Libra Esterlina (GBP)
+                Pesos Mexicanos (MXN)
+                Pesos Argentinos (ARS)
+                *********************************
+                """
+                :
+                """
+                
+                Welcome to the currency converter!
+                *********************************
+                This converter accepts:
+                Brazilian Reais (BRL)
+                US Dollars (USD)
+                Canadian Dollars (CAD)
+                Euros (EUR)
+                British Pounds (GBP)
+                Mexican Pesos (MXN)
+                Argentinian Pesos (ARS)
+                *********************************
+                """
+        );
+
 
         do {
             System.out.print(idioma.equals("PT-BR") ? "Digite a moeda de origem (ex: USD): " : "Enter the base currency (e.g., USD): ");
