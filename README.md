@@ -62,8 +62,9 @@ How to Use:
 Compile and run the program.
 Follow the on-screen instructions to enter the currencies.
 Follow the prompts to make new conversions or exit the program.
-Some of the Technologies and Java Properties Used
 
+
+Some of the Technologies and Java Properties Used:
 API: Use of APIs to access external data.
 JSON: Data format used to receive conversion rates.
 Gson: Library for handling JSON in Java, facilitating conversion between Java objects and JSON data.
@@ -71,6 +72,6 @@ Strings: Manipulation of strings for user input and message construction.
 Loops: Implementation of loops to allow multiple conversions within the same program execution.
 Scanner: Use of the Scanner class to read user input.
 Etc.
-Conclusion
+
 
 This project is a demonstration of the skills acquired during the Oracle Next Education + Alura course (Group 7).
